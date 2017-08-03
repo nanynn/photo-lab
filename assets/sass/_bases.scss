@@ -1,3 +1,8 @@
 body{
 	font-family: 'Lato', sans-serif;
 }
+
+#first{
+	background-image: url(../../dist/img/bg1.jpg);
+	@include background();
+}
