@@ -5,4 +5,99 @@ body{
 #first{
 	background-image: url(../../dist/img/bg1.jpg);
 	@include background();
+	background-atachmet:fixed;
+	height: 100vh;
+		
+		@media screen and (max-width:668px){
+			height: 50vh;
+		}
+	nav{
+		background-color: transparent;
+		color: $white;
+		margin: 0 auto;
+		border: none;
+	}
+	.first__info{
+		color: white;
+		padding-top: 20%;
+		padding-botton: 20%;
+	}
+	.first__info--p{
+		padding-bottom: 3%;
+	}
+	.first__info--btn{
+		@include btn();
+		margin: 0 auto;
+	}
+
+}
+
+#second{
+	background-color: $celeste;
+	
+	.second__title{
+		padding-top: 10%;
+	}
+	.second__title--h2{
+		text-transform: capitalize;
+		color: $verde;
+	}	
+	.second__title--p{
+		color: $grey;
+		text-align:left;
+		padding-botton: 3%;
+	}
+	.second__title--btn{
+		@include btn();
+		margin: 0 auto;
+	}
+}
+
+#third{
+	.third__title{
+		padding-top: 10%;
+	}
+	.third__title--h2{
+		color: $verde;
+	}
+	.third__title--p{
+		color:$grey;
+		padding-botton: 3%;
+	}
+	.third__title--btn{
+		@include btn();
+		margin: 0 auto;
+	}
+}
+
+#four{
+	background-color: $celeste;
+
+	.four__box{
+		padding: 10% 0;
+	}
+	.four__box--h4{
+		padding-botton: 5%;
+		text-align: center;
+	}
+}
+
+#five{
+	background-image: url(../../dist/img/bg2.jpg);
+	@include background();
+	background-atachmet:fixed;
+	height: 50vh;
+
+	.five__box{
+		padding: 10% 0;
+		margin: 0 auto;
+	}
+	.five__box--h3{
+		color: $white;
+		padding-botton: 3%;
+	}
+	.five__box--btn{
+		background-color: $verde;
+		width: 5%
+	}
 }

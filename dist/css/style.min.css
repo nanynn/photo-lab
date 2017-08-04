@@ -6434,4 +6434,95 @@ body {
   background-image: url(../../dist/img/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-atachmet: fixed;
+  height: 100vh; }
+  @media screen and (max-width: 668px) {
+    #first {
+      height: 50vh; } }
+  #first nav {
+    background-color: transparent;
+    color: #fff;
+    margin: 0 auto;
+    border: none; }
+  #first .first__info {
+    color: white;
+    padding-top: 20%;
+    padding-botton: 20%; }
+  #first .first__info--p {
+    padding-bottom: 3%; }
+  #first .first__info--btn {
+    padding-top: 5%;
+    background-color: #16a086;
+    color: #fff;
+    border-radius: 0.5em;
+    padding: 15px;
+    width: 20%;
+    text-decoration: none;
+    margin: 0 auto; }
+
+#second {
+  background-color: #f5f6f8; }
+  #second .second__title {
+    padding-top: 10%; }
+  #second .second__title--h2 {
+    text-transform: capitalize;
+    color: #16a086; }
+  #second .second__title--p {
+    color: #ababab;
+    text-align: left;
+    padding-botton: 3%; }
+  #second .second__title--btn {
+    padding-top: 5%;
+    background-color: #16a086;
+    color: #fff;
+    border-radius: 0.5em;
+    padding: 15px;
+    width: 20%;
+    text-decoration: none;
+    margin: 0 auto; }
+
+#third .third__title {
+  padding-top: 10%; }
+
+#third .third__title--h2 {
+  color: #16a086; }
+
+#third .third__title--p {
+  color: #ababab;
+  padding-botton: 3%; }
+
+#third .third__title--btn {
+  padding-top: 5%;
+  background-color: #16a086;
+  color: #fff;
+  border-radius: 0.5em;
+  padding: 15px;
+  width: 20%;
+  text-decoration: none;
+  margin: 0 auto; }
+
+#four {
+  background-color: #f5f6f8; }
+  #four .four__box {
+    padding: 10% 0; }
+  #four .four__box--h4 {
+    padding-botton: 5%;
+    text-align: center; }
+
+#five {
+  background-image: url(../../dist/img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-atachmet: fixed;
+  height: 50vh; }
+  #five .five__box {
+    padding: 10% 0;
+    margin: 0 auto; }
+  #five .five__box--h3 {
+    color: #fff;
+    padding-botton: 3%; }
+  #five .five__box--btn {
+    background-color: #16a086;
+    width: 5%; }

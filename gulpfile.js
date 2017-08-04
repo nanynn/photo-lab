@@ -19,7 +19,7 @@ gulp.task('style', function(){
 		.pipe(gulp.dest('dist/css/'));
 });
 
-gulp.task('webserver', function(){
+/*gulp.task('webserver', function(){
 	gulp.src('../photo-lab/')
 		.pipe(webserver({
 			fallback: 'index.html',
@@ -27,6 +27,6 @@ gulp.task('webserver', function(){
 			directoryListing: false,
 			open: true
 		}));
-});
+});*/
 
-gulp.task('default', ['script', 'style', 'webserver']);
+gulp.task('default', ['script', 'style'/*, 'webserver'*/]);
