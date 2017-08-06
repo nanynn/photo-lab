@@ -6,37 +6,41 @@ body{
 	background-image: url(../../dist/img/bg1.jpg);
 	@include background();
 	background-atachmet:fixed;
-	height: 100vh;
-		
-		@media screen and (max-width:668px){
-			height: 50vh;
-		}
-	nav{
+	margin:0;
+
+	.navbar-one{
 		background-color: transparent;
 		color: $white;
-		margin: 0 auto;
-		border: none;
+		text-align:center;
+		box-shadow: none;
 	}
 	.first__info{
 		color: white;
 		padding-top: 20%;
-		padding-botton: 20%;
+		padding-bottom: 20%;
 	}
 	.first__info--p{
 		padding-bottom: 3%;
-	}
-	.first__info--btn{
-		@include btn();
-		margin: 0 auto;
 	}
 
 }
 
 #second{
 	background-color: $celeste;
+	margin:0;
 	
+		@media (max-width:668px){
+			img{
+				width: 60%;
+				float: right;
+			}
+			.second__title{
+				text-align: left;
+			}
+		}
 	.second__title{
 		padding-top: 10%;
+		padding-botton: 10%;
 	}
 	.second__title--h2{
 		text-transform: capitalize;
@@ -45,36 +49,47 @@ body{
 	.second__title--p{
 		color: $grey;
 		text-align:left;
-		padding-botton: 3%;
-	}
-	.second__title--btn{
-		@include btn();
-		margin: 0 auto;
+		padding-botton: 5%;
 	}
 }
 
 #third{
+	.row{
+		margin:0;
+	}
+	img{
+		width: 90%;
+	}
+		@media (max-width:668px){
+			img{
+				width: 60%;
+				margin: 0 auto;
+			}
+			.third__title{
+				text-align: right;
+			}
+		}
 	.third__title{
-		padding-top: 10%;
+		padding: 10% 0;
 	}
 	.third__title--h2{
 		color: $verde;
+		margin:0;
+
 	}
 	.third__title--p{
 		color:$grey;
 		padding-botton: 3%;
 	}
-	.third__title--btn{
-		@include btn();
-		margin: 0 auto;
-	}
 }
 
 #four{
 	background-color: $celeste;
+	margin:0;
 
 	.four__box{
 		padding: 10% 0;
+		margin:0 auto;
 	}
 	.four__box--h4{
 		padding-botton: 5%;
@@ -86,18 +101,30 @@ body{
 	background-image: url(../../dist/img/bg2.jpg);
 	@include background();
 	background-atachmet:fixed;
-	height: 50vh;
+	margin:0;
 
 	.five__box{
-		padding: 10% 0;
+		padding:10% 0;
 		margin: 0 auto;
 	}
 	.five__box--h3{
 		color: $white;
 		padding-botton: 3%;
 	}
-	.five__box--btn{
-		background-color: $verde;
-		width: 5%
+}
+
+#six{
+	background-color: $celeste;
+	margin:0;
+
+	.six__title{
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+}
+
+footer{
+	span{
+		color: $verde;
 	}
 }

@@ -4,45 +4,41 @@
 	<meta charset="UTF-8">
 	<title>photolab</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
 	<header id="first">
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			    
-			    </div>
-			    <div class="collapse navbar-collapse navbar-ex1-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li><a href="#">HOME</a></li>
-			        <li><a href="#">PHOTOAPP</a></li>
-			        <li><a href="#">DESIGN</a></li>
-			        <li><a href="#">DOWNLOAD</a></li>
-			      </ul>
-			    </div>
+		<nav id="menu" class="navbar-one">
+			<div class="navbar-fixed">
+		      	<ul id="nav-mobile" class="center hide-on-med-and-down">
+			        <li><a href="#first">HOME</a></li>
+			        <li><a href="#second">PHOTOAPP</a></li>
+			        <li><a href="#third">DESIGN</a></li>
+			        <li><a href="#six">DOWNLOAD</a></li>
+		      	</ul>
 			</div>
+			<!-- menu responsive -->
+			 <ul id="slide-out" class="side-nav">
+			    <li><a href="#first">HOME</a></li>
+		        <li><a href="#second">PHOTOAPP</a></li>
+		        <li><a href="#third">DESIGN</a></li>
+		        <li><a href="#six">DOWNLOAD</a></li>
+			  </ul>
+			<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 		</nav>
-		<div class="container text-center first__info">
+	
+
+		<div class="container center-align first__info">
 			<div class="row">
-				<div class="col-lg-12 col-xs-12 first__info--title">
-					<h1>YOUR LIFE , A PHOTO</h1>
-				</div>		
-			</div>
-			<div class="row">
-				<div class="col-lg-12 col-xs-12 first__info--p text-uper">
+				<div class="col l12 col s12 first__info--title">
+					<h3>YOUR LIFE , A PHOTO</h3>
 					<p>print your life in a simple photo</p>
 				</div>		
 			</div>
 			<div class="row">
-				<div class="col-lg-12 col-xs-12">
-					<a href="#" type="button" class="first__info--btn">GET STARTED</a>
+				<div class="col l12 col s12">
+					<a href="#" type="button" class="btn">GET STARTED</a>
 				</div>		
 			</div>
 		</div>
@@ -51,13 +47,17 @@
 	<section id="second">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-xs-12 second__title">
-					<h2 class="second__title--h2">represent your life whith a simple photo</h2>
+				<div class="col l6 col s12 second__title">
+					<h5 class="second__title--h2">REPRESENT YOUR LIFE WHIT A SIMPLE PHOTO</h5>
 					<p class="second__title--p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum officiis voluptatum dicta cumque nam animi obcaecati sequi expedita non aperiam voluptatibus aut nemo aliquid amet autem, nobis nostrum repudiandae, quaerat.</p>
-					<a href="#" class="second__title--btn">GET STARTED</a>
+					<div class="row">
+						<div class="col l6 col s12">
+							<a href="#" class="btn">GET STARTED</a>
+						</div>
+					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12">
-					<img src="dist/img/hand.png" alt="" class="img-responsive">
+				<div class="col l6 col s12">
+					<img src="dist/img/hand.png" alt="" class="responsive-img">
 				</div>
 			</div>
 		</div>
@@ -66,79 +66,79 @@
 	<section id="third">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-xs-12">
-					<img src="dist/img/phone.png" alt="" class="img-responsive">
+				<div class="col l6 col s12">
+					<img src="dist/img/phone.png" alt="" class="responsive-img">
 				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 third__title">
-					<h2 class="third__title--h2">DESIGN</h2>
+				<div class="col l6 col s12 third__title">
+					<h5 class="third__title--h2">DESIGN</h5>
 					<p class="third__title--p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo est, inventore ipsam alias libero obcaecati sapiente, unde possimus sint doloribus reprehenderit autem fugit iusto. Accusamus quam</p>
-					<a href="#" class="third__title--btn">LEARN MORE</a>
+					<div class="row">
+						<div class="col l6 col s12">
+							<a href="#" class="btn">LEARN MORE</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section id="four">
-		<div class="container">
-			<div class="row four__box">
-				<div class="col-lg-3 col-xs-12">
-					<h4 class="four__box--h4">OUR COMMUNITY</h4>
+		<div class="container four__box center-align">
+			<div class="row">
+				<div class="col l4 col s12">
+					<h5 class="four__box--h4">OUR COMMUNITY</h5>
 					<p class="four__box--p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
-				<div class="col-lg-3 col-xs-12">
-					<img src="dist/img/car.jpg" alt="" class="img-responsive">
+				<div class="col l4 col s12">
+					<img src="dist/img/car.jpg" alt="" class="responsive-img">
 				</div>
-				<div class="col-lg-3 col-xs-12">
-					<img src="dist/img/leaf.jpg" alt="" class="img-responsive">
+				<div class="col l4 col s12">
+					<img src="dist/img/leaf.jpg" alt="" class="responsive-img">
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section id="five">
-		<div class="container">
-			<div class="row five__box text-center">
-				<div class="col-lg-12">
-					<h3 class="five__box--h3">SUSCRIBE TO US COMMUNITY</h3>
+		<div class="container five__box center-align">
+			<div class="row">
+				<div class="col l12 col s12">
+					<h5 class="five__box--h3">SUSCRIBE TO US COMMUNITY</h5>
 				</div>
-				<div class="col-lg-10">
+				<div class="col l10 col s10">
 					<input type="text" placeholder="YOUR EMAIL">
 				</div>
-				<div class="col-lg-2">
-					<a href="#" class="five__box--btn"></a>
+				<div class="col l2 col s2">
+					<a href="#" class="btn"><i class="material-icons">check</i></a>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section id="six">
-		<div class="container">
+		<div class="container six__title">
 			<div class="row">
-				<div class="col-lg-12">
-					<h2>DOWNLOAD IT</h2>
+				<div class="col l12 col s12 center-align">
+					<h5>DOWNLOAD IT</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ex excepturi vel laudantium doloremque recusandae odit possimus repudiandae et suscipit sapiente animi fugiat voluptates laborum, optio, officia, delectus. Pariatur, ab.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-6">
-					<a href="#">APPLE STORE</a>
+			<div class="row center-align">
+				<div class="col l6 col s6">
+					<a href="#" class="btn six__title--btn">APPLE STORE</a>
 				</div>
-				<div class="col-lg-6">
-					<a href="#">PLAY STORE</a>
+				<div class="col l6 col s6">
+					<a href="#" class="btn six__title--btn">PLAY STORE</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<footer>
-		<div class="container">
+		<div class="container left-align">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col l6 col s12">
 					<p>CREDITS <span>|</span> PRIVACY <span>|</span> OUR TEAM</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6">
 					<p>Copyright by phototime <span>·</span> all right reserved</p>
 				</div>
 			</div>
